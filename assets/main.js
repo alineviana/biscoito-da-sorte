@@ -1,11 +1,11 @@
 const buttonFortuneCookie = document.querySelector('.fortune-cookie');
-const buttonOpenedCookie = document.querySelector('.open-other-cookie');
+const buttonOpenedCookie = document.querySelector('.open-another-cookie');
 const openCookie = document.querySelector('.open-cookie');
 const openNewCookie = document.querySelector('.open-new-cookie');
 const messageCookie = document.querySelector('.message-cookie');
 
 
-function phrases() {
+function updateFortuneCookie() {
     const phrases = [
         "Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.",
         "A persistência realiza o impossível!",
@@ -29,8 +29,6 @@ function phrases() {
     let eachPhrase = phrases[randomPhrase];
 
     messageCookie.innerHTML = `"${eachPhrase}"`;
-
-    eachPhrase++
 }
 
 function openFortuneCookie() {
@@ -38,7 +36,7 @@ function openFortuneCookie() {
     openNewCookie.classList.remove('hide');
 }
 
-function openOtherCookie() {
+function openAnotherCookie() {
     openNewCookie.classList.add('hide');
     openCookie.classList.remove('hide');
 }
@@ -46,11 +44,10 @@ function openOtherCookie() {
 buttonFortuneCookie.addEventListener('click', function() {
     openFortuneCookie();
 
-    phrases();
+    updateFortuneCookie();
+})
 
-    buttonOpenedCookie.addEventListener('click', function() {
-        openOtherCookie();
-    })
-
+buttonOpenedCookie.addEventListener('click', function() {
+    openAnotherCookie();
 })
 

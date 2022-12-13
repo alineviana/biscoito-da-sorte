@@ -6,7 +6,8 @@ Desafio Extra Rocketseat | Stage 05
 <br>
 
 <img src="./assets/imgs/preview.png" width=250> <img src="./assets/imgs/preview1.png" width=250>
-- 🔗[Clique aqui para acessar](https://alineviana.github.io/biscoito-da-sorte/)
+<br>
+<img src="./assets/imgs/link.png" width=12> Clique [AQUI](https://alineviana.github.io/biscoito-da-sorte/) para acessar o projeto
 
 <br>
 
