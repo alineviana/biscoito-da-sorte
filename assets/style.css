@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: linear-gradient(45deg, #190361, #bb00ff);
+    animation: gradient 10s ease infinite;
+    background-size: 200% 200%;
+}
+
+.open-cookie {
+    background-color: #FFFFFF;
+    width: 28.8rem;
+    height: 42.4rem;
+    
+    box-shadow: 0.2rem 0.3rem 0.6rem 0.6rem rgb(0, 0, 0, 0.3);
+
+    border-radius: 0.5rem;
+
+    margin: 12.9rem 5rem 1rem;
+}
+
+.open-cookie h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 3rem;
+
+    padding: 5rem 4rem 1.5rem;
+}
+
+.open-cookie p {
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+    padding-top: 1rem;
+}
+
+.open-cookie img {
+    width: 15rem;
+
+    margin: 3rem 6.5rem 1rem;
+}
+
+.open-cookie button {
+    background-color: #FF9500;
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-shadow: 0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.6);
+
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 0.4rem;
+
+    width: 17.4rem;
+    height: 5.2rem;
+
+    margin: 3rem 6rem 0 5.8rem;
+}
+
+.open-new-cookie {
+    background-color: #FFFFFF;
+    width: 28.8rem;
+    height: 48.4rem;
+
+    border-radius: 0.5rem;
+
+    box-shadow: 0.2rem 0.3rem 0.6rem 0.6rem rgb(0, 0, 0, 0.3);
+
+    padding: 1.8rem 0.4rem;
+    margin: 10rem 5rem 1rem;
+}
+
+.open-new-cookie h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 3rem;
+
+    padding: 2rem 4rem 1rem;
+}
+
+.open-new-cookie p {
+    background-color: #2f81a45a;
+    box-shadow: 0.4rem 0.4rem 0.4rem rgb(0, 0, 0, 0.4);
+    border-radius: 0.2rem;
+
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 400;
+    text-align: center;
+
+    padding: 1rem;
+    margin: 1.5rem;
+}
+
+.open-new-cookie img {
+    width: 20rem;
+
+    margin: 1rem 4.5rem 1rem;
+}
+
+.open-new-cookie button {
+    background-color: #FF9500;
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-shadow: 0.1rem 0.2rem 0.2rem rgba(0, 0, 0, 0.6);
+
+    box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.6);
+    border: none;
+    border-radius: 0.4rem;
+
+    width: 17.4rem;
+    height: 5.2rem;
+
+    margin: 1rem 6rem 0 5.8rem;
+}
+
+.hide {
+    display: none;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1379px) {
+    .open-cookie { 
+        margin: 12.9rem 52rem 10rem;
+    }
+
+    .open-new-cookie {    
+        margin: 10.9rem 52rem 1rem;
+    }
+}
+
+@media (min-width: 1380px) {
+    .open-cookie { 
+        margin: 8rem 70rem 1rem;
+    }
+
+    .open-new-cookie {    
+        margin: 5rem 70rem 1rem;
+    }
+}
